@@ -6,3 +6,8 @@ form.addEventListener("submit", (e) => {
     //prevent the default form submission behavior
     e.preventDefault()
 })
+
+//Get the To-do task from the form
+const task = e.target.taskInput.value
+
+//
